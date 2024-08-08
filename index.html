@@ -1,0 +1,919 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="scss/style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Music</title>
+</head>
+
+<body>
+    <div class="app_Player">
+        <!-- Dashboard -->
+        <header class="dashboard">
+            <div class="tabbar_user">
+                <div class="tabbar_user-container">
+                    <img class="tabbar_user-img" src="https://images.kienthuc.net.vn/zoom/800/uploaded/nguyenanhson/2021_06_03/4/dep-tua-tinh-dau-hot-girl-nga-lam-netizen-tan-chay-la-ai.jpeg" width="50px" height="50px"
+                        alt="User Image">
+                    <div class="tabbar_user-name">
+                        <p class="tabbar_user-text">Hey Samantha William 🖐🏾</p>
+                        <h3 class="tabbar_user-title">Recenntly Played</h3>
+                    </div>
+                </div>
+                <div class="tabbar_user-notice">
+                    <i class="fa-solid fa-bell"></i>
+                    <div class="redd"></div>
+                </div>
+            </div>
+        </header>
+        <nav class="swipe-container">
+
+            <div class="swipeWrapper">
+
+                <div class="swipe-item">
+                    <img src="https://chothuestudio.com/wp-content/uploads/2023/03/1-533x800.jpg"
+                        alt="Cruel Summer - Taylor Swift">
+                    <p class="swipe-title">Cruel Summer</p>
+                    <p class="swipe-text">Taylor Swift</p>
+                </div>
+
+                <div class="swipe-item">
+                    <img src="https://chothuestudio.com/wp-content/uploads/2023/03/1-533x800.jpg" alt="Lowkey - Niki">
+                    <p class="swipe-title">Lowkey</p>
+                    <p class="swipe-text">Niki</p>
+                </div>
+
+                <div class="swipe-item">
+                    <img src="https://chothuestudio.com/wp-content/uploads/2023/03/1-533x800.jpg"
+                        alt="Photograph - Ed Sheeran">
+                    <p class="swipe-title">Photograph</p>
+                    <p class="swipe-text">Ed Sheeran</p>
+                </div>
+
+                <div class="swipe-item">
+                    <img src="https://chothuestudio.com/wp-content/uploads/2023/03/1-533x800.jpg"
+                        alt="Photograph - Ed Sheeran">
+                    <p class="swipe-title">Photograph</p>
+                    <p class="swipe-text">Ed Sheeran</p>
+                </div>
+
+            </div>
+
+        </nav>
+        <section class="container_song-list">
+            <div class="song-lists-wrapper">
+                <div class="song-list " id="song-list-1">
+                    <div class="song-list_bar">
+                        <div class="song-list_header">
+                            <h2 class="song-list_title">Popular Songs </h2>
+                            <p class="song-list_text">Rook1e, khai dreams, Joytastic Sarah và nhiều hơn nữa </p>
+                        </div>
+                        <div class="btn btn-toggle-play">
+                            <i class="fas fa-pause icon-pause"></i>
+                            <i class="fas fa-play icon-play"></i>
+                        </div>
+                    </div>
+
+                    <div class="song-list_songs">
+                        <div class="song-list_song">
+                            <div class="song-list_img">
+                                <div class="ong-list_image">
+                                    <img width="55px" height="55px" style="background-size: cover; border-radius: 5px;"
+                                        src="https://thanhnien.mediacdn.vn/Uploaded/thaobtn/2022_11_14/e375b2356ecda893f1dc-9121.jpg"
+                                        alt="Seven">
+                                </div>
+                                <div class="song-list_info">
+                                    <h3 class="song-list_titlle">Severt</h3>
+                                    <p class="song-list_artist">Jung KookJung</p>
+                                </div>
+                            </div>
+                            <div class="song-list_icon">
+                                <i class="fa-solid fa-ellipsis-vertical"></i>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="song-list_songs">
+                        <div class="song-list_song">
+                            <div class="song-list_img">
+                                <div class="ong-list_image">
+                                    <img width="55px" height="55px"
+                                        style="background-size: cover; border-radius: 5px;flex-shrink: 0;"
+                                        src="https://thanhnien.mediacdn.vn/Uploaded/thaobtn/2022_11_14/e375b2356ecda893f1dc-9121.jpg"
+                                        alt="Seven">
+                                </div>
+                                <div class="song-list_info">
+                                    <h3 class="song-list_titlle">Severt</h3>
+                                    <p class="song-list_artist">Jung Kook</p>
+                                </div>
+                            </div>
+                            <div class="song-list_icon">
+                                <i class="fa-solid fa-ellipsis-vertical"></i>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="song-list_songs">
+                        <div class="song-list_song">
+                            <div class="song-list_img">
+                                <div class="ong-list_image">
+                                    <img width="55px" height="55px" style="background-size: cover; border-radius: 5px;"
+                                        src="https://thanhnien.mediacdn.vn/Uploaded/thaobtn/2022_11_14/e375b2356ecda893f1dc-9121.jpg"
+                                        alt="Seven">
+                                </div>
+                                <div class="song-list_info">
+                                    <h3 class="song-list_titlle">Severt</h3>
+                                    <p class="song-list_artist">Jung Kook</p>
+                                </div>
+                            </div>
+                            <div class="song-list_icon">
+                                <i class="fa-solid fa-ellipsis-vertical"></i>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="song-list_songs">
+                        <div class="song-list_song">
+                            <div class="song-list_img">
+                                <div class="ong-list_image">
+                                    <img width="55px" height="55px" style="background-size: cover; border-radius: 5px;"
+                                        src="https://thanhnien.mediacdn.vn/Uploaded/thaobtn/2022_11_14/e375b2356ecda893f1dc-9121.jpg"
+                                        alt="Seven">
+                                </div>
+                                <div class="song-list_info">
+                                    <h3 class="song-list_titlle">Severt</h3>
+                                    <p class="song-list_artist">Jung Kook</p>
+                                </div>
+                            </div>
+                            <div class="song-list_icon">
+                                <i class="fa-solid fa-ellipsis-vertical"></i>
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+                <div class="song-list" id="song-list-2">
+                    <div class="song-list_bar">
+                        <div class="song-list_header">
+                            <h2 class="song-list_title">Popular Songs </h2>
+                            <p class="song-list_text">Rook1e, khai dreams, Joytastic Sarah và nhiều hơn nữa </p>
+                        </div>
+                        <div class="btn btn-toggle-play">
+                            <i class="fas fa-pause icon-pause"></i>
+                            <i class="fas fa-play icon-play"></i>
+                        </div>
+                    </div>
+
+                    <div class="song-list_songs">
+                        <div class="song-list_song">
+                            <div class="song-list_img">
+                                <div class="ong-list_image">
+                                    <img width="55px" height="55px" style="background-size: cover; border-radius: 5px;"
+                                        src="https://thanhnien.mediacdn.vn/Uploaded/thaobtn/2022_11_14/e375b2356ecda893f1dc-9121.jpg"
+                                        alt="Seven">
+                                </div>
+                                <div class="song-list_info">
+                                    <h3 class="song-list_titlle">Severt</h3>
+                                    <p class="song-list_artist">Jung KookJung</p>
+                                </div>
+                            </div>
+                            <div class="song-list_icon">
+                                <i class="fa-solid fa-ellipsis-vertical"></i>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="song-list_songs">
+                        <div class="song-list_song">
+                            <div class="song-list_img">
+                                <div class="ong-list_image">
+                                    <img width="55px" height="55px"
+                                        style="background-size: cover; border-radius: 5px;flex-shrink: 0;"
+                                        src="https://thanhnien.mediacdn.vn/Uploaded/thaobtn/2022_11_14/e375b2356ecda893f1dc-9121.jpg"
+                                        alt="Seven">
+                                </div>
+                                <div class="song-list_info">
+                                    <h3 class="song-list_titlle">Severt</h3>
+                                    <p class="song-list_artist">Jung Kook</p>
+                                </div>
+                            </div>
+                            <div class="song-list_icon">
+                                <i class="fa-solid fa-ellipsis-vertical"></i>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="song-list_songs">
+                        <div class="song-list_song">
+                            <div class="song-list_img">
+                                <div class="ong-list_image">
+                                    <img width="55px" height="55px" style="background-size: cover; border-radius: 5px;"
+                                        src="https://thanhnien.mediacdn.vn/Uploaded/thaobtn/2022_11_14/e375b2356ecda893f1dc-9121.jpg"
+                                        alt="Seven">
+                                </div>
+                                <div class="song-list_info">
+                                    <h3 class="song-list_titlle">Severt</h3>
+                                    <p class="song-list_artist">Jung Kook</p>
+                                </div>
+                            </div>
+                            <div class="song-list_icon">
+                                <i class="fa-solid fa-ellipsis-vertical"></i>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="song-list_songs">
+                        <div class="song-list_song">
+                            <div class="song-list_img">
+                                <div class="ong-list_image">
+                                    <img width="55px" height="55px" style="background-size: cover; border-radius: 5px;"
+                                        src="https://thanhnien.mediacdn.vn/Uploaded/thaobtn/2022_11_14/e375b2356ecda893f1dc-9121.jpg"
+                                        alt="Seven">
+                                </div>
+                                <div class="song-list_info">
+                                    <h3 class="song-list_titlle">Severt</h3>
+                                    <p class="song-list_artist">Jung Kook</p>
+                                </div>
+                            </div>
+                            <div class="song-list_icon">
+                                <i class="fa-solid fa-ellipsis-vertical"></i>
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+                <div class="song-list" id="song-list-3">
+                    <div class="song-list_bar">
+                        <div class="song-list_header">
+                            <h2 class="song-list_title">Popular Songs </h2>
+                            <p class="song-list_text">Rook1e, khai dreams, Joytastic Sarah và nhiều hơn nữa </p>
+                        </div>
+                        <div class="btn btn-toggle-play">
+                            <i class="fas fa-pause icon-pause"></i>
+                            <i class="fas fa-play icon-play"></i>
+                        </div>
+                    </div>
+
+                    <div class="song-list_songs">
+                        <div class="song-list_song">
+                            <div class="song-list_img">
+                                <div class="ong-list_image">
+                                    <img width="55px" height="55px" style="background-size: cover; border-radius: 5px;"
+                                        src="https://thanhnien.mediacdn.vn/Uploaded/thaobtn/2022_11_14/e375b2356ecda893f1dc-9121.jpg"
+                                        alt="Seven">
+                                </div>
+                                <div class="song-list_info">
+                                    <h3 class="song-list_titlle">Severt</h3>
+                                    <p class="song-list_artist">Jung KookJung</p>
+                                </div>
+                            </div>
+                            <div class="song-list_icon">
+                                <i class="fa-solid fa-ellipsis-vertical"></i>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="song-list_songs">
+                        <div class="song-list_song">
+                            <div class="song-list_img">
+                                <div class="ong-list_image">
+                                    <img width="55px" height="55px"
+                                        style="background-size: cover; border-radius: 5px;flex-shrink: 0;"
+                                        src="https://thanhnien.mediacdn.vn/Uploaded/thaobtn/2022_11_14/e375b2356ecda893f1dc-9121.jpg"
+                                        alt="Seven">
+                                </div>
+                                <div class="song-list_info">
+                                    <h3 class="song-list_titlle">Severt</h3>
+                                    <p class="song-list_artist">Jung Kook</p>
+                                </div>
+                            </div>
+                            <div class="song-list_icon">
+                                <i class="fa-solid fa-ellipsis-vertical"></i>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="song-list_songs">
+                        <div class="song-list_song">
+                            <div class="song-list_img">
+                                <div class="ong-list_image">
+                                    <img width="55px" height="55px" style="background-size: cover; border-radius: 5px;"
+                                        src="https://thanhnien.mediacdn.vn/Uploaded/thaobtn/2022_11_14/e375b2356ecda893f1dc-9121.jpg"
+                                        alt="Seven">
+                                </div>
+                                <div class="song-list_info">
+                                    <h3 class="song-list_titlle">Severt</h3>
+                                    <p class="song-list_artist">Jung Kook</p>
+                                </div>
+                            </div>
+                            <div class="song-list_icon">
+                                <i class="fa-solid fa-ellipsis-vertical"></i>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="song-list_songs">
+                        <div class="song-list_song">
+                            <div class="song-list_img">
+                                <div class="ong-list_image">
+                                    <img width="55px" height="55px" style="background-size: cover; border-radius: 5px;"
+                                        src="https://thanhnien.mediacdn.vn/Uploaded/thaobtn/2022_11_14/e375b2356ecda893f1dc-9121.jpg"
+                                        alt="Seven">
+                                </div>
+                                <div class="song-list_info">
+                                    <h3 class="song-list_titlle">Severt</h3>
+                                    <p class="song-list_artist">Jung Kook</p>
+                                </div>
+                            </div>
+                            <div class="song-list_icon">
+                                <i class="fa-solid fa-ellipsis-vertical"></i>
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+                <div class="song-list" id="song-list-4">
+                    <div class="song-list_bar">
+                        <div class="song-list_header">
+                            <h2 class="song-list_title">Popular Songs </h2>
+                            <p class="song-list_text">Rook1e, khai dreams, Joytastic Sarah và nhiều hơn nữa </p>
+                        </div>
+                        <div class="btn btn-toggle-play">
+                            <i class="fas fa-pause icon-pause"></i>
+                            <i class="fas fa-play icon-play"></i>
+                        </div>
+                    </div>
+
+                    <div class="song-list_songs">
+                        <div class="song-list_song">
+                            <div class="song-list_img">
+                                <div class="ong-list_image">
+                                    <img width="55px" height="55px" style="background-size: cover; border-radius: 5px;"
+                                        src="https://thanhnien.mediacdn.vn/Uploaded/thaobtn/2022_11_14/e375b2356ecda893f1dc-9121.jpg"
+                                        alt="Seven">
+                                </div>
+                                <div class="song-list_info">
+                                    <h3 class="song-list_titlle">Severt</h3>
+                                    <p class="song-list_artist">Jung KookJung</p>
+                                </div>
+                            </div>
+                            <div class="song-list_icon">
+                                <i class="fa-solid fa-ellipsis-vertical"></i>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="song-list_songs">
+                        <div class="song-list_song">
+                            <div class="song-list_img">
+                                <div class="ong-list_image">
+                                    <img width="55px" height="55px"
+                                        style="background-size: cover; border-radius: 5px;flex-shrink: 0;"
+                                        src="https://thanhnien.mediacdn.vn/Uploaded/thaobtn/2022_11_14/e375b2356ecda893f1dc-9121.jpg"
+                                        alt="Seven">
+                                </div>
+                                <div class="song-list_info">
+                                    <h3 class="song-list_titlle">Severt</h3>
+                                    <p class="song-list_artist">Jung Kook</p>
+                                </div>
+                            </div>
+                            <div class="song-list_icon">
+                                <i class="fa-solid fa-ellipsis-vertical"></i>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="song-list_songs">
+                        <div class="song-list_song">
+                            <div class="song-list_img">
+                                <div class="ong-list_image">
+                                    <img width="55px" height="55px" style="background-size: cover; border-radius: 5px;"
+                                        src="https://thanhnien.mediacdn.vn/Uploaded/thaobtn/2022_11_14/e375b2356ecda893f1dc-9121.jpg"
+                                        alt="Seven">
+                                </div>
+                                <div class="song-list_info">
+                                    <h3 class="song-list_titlle">Severt</h3>
+                                    <p class="song-list_artist">Jung Kook</p>
+                                </div>
+                            </div>
+                            <div class="song-list_icon">
+                                <i class="fa-solid fa-ellipsis-vertical"></i>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="song-list_songs">
+                        <div class="song-list_song">
+                            <div class="song-list_img">
+                                <div class="ong-list_image">
+                                    <img width="55px" height="55px" style="background-size: cover; border-radius: 5px;"
+                                        src="https://thanhnien.mediacdn.vn/Uploaded/thaobtn/2022_11_14/e375b2356ecda893f1dc-9121.jpg"
+                                        alt="Seven">
+                                </div>
+                                <div class="song-list_info">
+                                    <h3 class="song-list_titlle">Severt</h3>
+                                    <p class="song-list_artist">Jung Kook</p>
+                                </div>
+                            </div>
+                            <div class="song-list_icon">
+                                <i class="fa-solid fa-ellipsis-vertical"></i>
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+                <div class="song-list"id="song-list-5">
+                    <div class="song-list_bar">
+                        <div class="song-list_header">
+                            <h2 class="song-list_title">Popular Songs </h2>
+                            <p class="song-list_text">Rook1e, khai dreams, Joytastic Sarah và nhiều hơn nữa </p>
+                        </div>
+                        <div class="btn btn-toggle-play">
+                            <i class="fas fa-pause icon-pause"></i>
+                            <i class="fas fa-play icon-play"></i>
+                        </div>
+                    </div>
+
+                    <div class="song-list_songs">
+                        <div class="song-list_song">
+                            <div class="song-list_img">
+                                <div class="ong-list_image">
+                                    <img width="55px" height="55px" style="background-size: cover; border-radius: 5px;"
+                                        src="https://thanhnien.mediacdn.vn/Uploaded/thaobtn/2022_11_14/e375b2356ecda893f1dc-9121.jpg"
+                                        alt="Seven">
+                                </div>
+                                <div class="song-list_info">
+                                    <h3 class="song-list_titlle">Severt</h3>
+                                    <p class="song-list_artist">Jung KookJung</p>
+                                </div>
+                            </div>
+                            <div class="song-list_icon">
+                                <i class="fa-solid fa-ellipsis-vertical"></i>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="song-list_songs">
+                        <div class="song-list_song">
+                            <div class="song-list_img">
+                                <div class="ong-list_image">
+                                    <img width="55px" height="55px"
+                                        style="background-size: cover; border-radius: 5px;flex-shrink: 0;"
+                                        src="https://thanhnien.mediacdn.vn/Uploaded/thaobtn/2022_11_14/e375b2356ecda893f1dc-9121.jpg"
+                                        alt="Seven">
+                                </div>
+                                <div class="song-list_info">
+                                    <h3 class="song-list_titlle">Severt</h3>
+                                    <p class="song-list_artist">Jung Kook</p>
+                                </div>
+                            </div>
+                            <div class="song-list_icon">
+                                <i class="fa-solid fa-ellipsis-vertical"></i>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="song-list_songs">
+                        <div class="song-list_song">
+                            <div class="song-list_img">
+                                <div class="ong-list_image">
+                                    <img width="55px" height="55px" style="background-size: cover; border-radius: 5px;"
+                                        src="https://thanhnien.mediacdn.vn/Uploaded/thaobtn/2022_11_14/e375b2356ecda893f1dc-9121.jpg"
+                                        alt="Seven">
+                                </div>
+                                <div class="song-list_info">
+                                    <h3 class="song-list_titlle">Severt</h3>
+                                    <p class="song-list_artist">Jung Kook</p>
+                                </div>
+                            </div>
+                            <div class="song-list_icon">
+                                <i class="fa-solid fa-ellipsis-vertical"></i>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="song-list_songs">
+                        <div class="song-list_song">
+                            <div class="song-list_img">
+                                <div class="ong-list_image">
+                                    <img width="55px" height="55px" style="background-size: cover; border-radius: 5px;"
+                                        src="https://thanhnien.mediacdn.vn/Uploaded/thaobtn/2022_11_14/e375b2356ecda893f1dc-9121.jpg"
+                                        alt="Seven">
+                                </div>
+                                <div class="song-list_info">
+                                    <h3 class="song-list_titlle">Severt</h3>
+                                    <p class="song-list_artist">Jung Kook</p>
+                                </div>
+                            </div>
+                            <div class="song-list_icon">
+                                <i class="fa-solid fa-ellipsis-vertical"></i>
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+                <div class="song-list" id="song-list-6">
+                    <div class="song-list_bar">
+                        <div class="song-list_header">
+                            <h2 class="song-list_title">Popular Songs </h2>
+                            <p class="song-list_text">Rook1e, khai dreams, Joytastic Sarah và nhiều hơn nữa </p>
+                        </div>
+                        <div class="btn btn-toggle-play">
+                            <i class="fas fa-pause icon-pause"></i>
+                            <i class="fas fa-play icon-play"></i>
+                        </div>
+                    </div>
+
+                    <div class="song-list_songs">
+                        <div class="song-list_song">
+                            <div class="song-list_img">
+                                <div class="ong-list_image">
+                                    <img width="55px" height="55px" style="background-size: cover; border-radius: 5px;"
+                                        src="https://thanhnien.mediacdn.vn/Uploaded/thaobtn/2022_11_14/e375b2356ecda893f1dc-9121.jpg"
+                                        alt="Seven">
+                                </div>
+                                <div class="song-list_info">
+                                    <h3 class="song-list_titlle">Severt</h3>
+                                    <p class="song-list_artist">Jung KookJung</p>
+                                </div>
+                            </div>
+                            <div class="song-list_icon">
+                                <i class="fa-solid fa-ellipsis-vertical"></i>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="song-list_songs">
+                        <div class="song-list_song">
+                            <div class="song-list_img">
+                                <div class="ong-list_image">
+                                    <img width="55px" height="55px"
+                                        style="background-size: cover; border-radius: 5px;flex-shrink: 0;"
+                                        src="https://thanhnien.mediacdn.vn/Uploaded/thaobtn/2022_11_14/e375b2356ecda893f1dc-9121.jpg"
+                                        alt="Seven">
+                                </div>
+                                <div class="song-list_info">
+                                    <h3 class="song-list_titlle">Severt</h3>
+                                    <p class="song-list_artist">Jung Kook</p>
+                                </div>
+                            </div>
+                            <div class="song-list_icon">
+                                <i class="fa-solid fa-ellipsis-vertical"></i>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="song-list_songs">
+                        <div class="song-list_song">
+                            <div class="song-list_img">
+                                <div class="ong-list_image">
+                                    <img width="55px" height="55px" style="background-size: cover; border-radius: 5px;"
+                                        src="https://thanhnien.mediacdn.vn/Uploaded/thaobtn/2022_11_14/e375b2356ecda893f1dc-9121.jpg"
+                                        alt="Seven">
+                                </div>
+                                <div class="song-list_info">
+                                    <h3 class="song-list_titlle">Severt</h3>
+                                    <p class="song-list_artist">Jung Kook</p>
+                                </div>
+                            </div>
+                            <div class="song-list_icon">
+                                <i class="fa-solid fa-ellipsis-vertical"></i>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="song-list_songs">
+                        <div class="song-list_song">
+                            <div class="song-list_img">
+                                <div class="ong-list_image">
+                                    <img width="55px" height="55px" style="background-size: cover; border-radius: 5px;"
+                                        src="https://thanhnien.mediacdn.vn/Uploaded/thaobtn/2022_11_14/e375b2356ecda893f1dc-9121.jpg"
+                                        alt="Seven">
+                                </div>
+                                <div class="song-list_info">
+                                    <h3 class="song-list_titlle">Severt</h3>
+                                    <p class="song-list_artist">Jung Kook</p>
+                                </div>
+                            </div>
+                            <div class="song-list_icon">
+                                <i class="fa-solid fa-ellipsis-vertical"></i>
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+                <div class="song-list"id="song-list-7">
+                    <div class="song-list_bar">
+                        <div class="song-list_header">
+                            <h2 class="song-list_title">Popular Songs </h2>
+                            <p class="song-list_text">Rook1e, khai dreams, Joytastic Sarah và nhiều hơn nữa </p>
+                        </div>
+                        <div class="btn btn-toggle-play">
+                            <i class="fas fa-pause icon-pause"></i>
+                            <i class="fas fa-play icon-play"></i>
+                        </div>
+                    </div>
+
+                    <div class="song-list_songs">
+                        <div class="song-list_song">
+                            <div class="song-list_img">
+                                <div class="ong-list_image">
+                                    <img width="55px" height="55px" style="background-size: cover; border-radius: 5px;"
+                                        src="https://thanhnien.mediacdn.vn/Uploaded/thaobtn/2022_11_14/e375b2356ecda893f1dc-9121.jpg"
+                                        alt="Seven">
+                                </div>
+                                <div class="song-list_info">
+                                    <h3 class="song-list_titlle">Severt</h3>
+                                    <p class="song-list_artist">Jung KookJung</p>
+                                </div>
+                            </div>
+                            <div class="song-list_icon">
+                                <i class="fa-solid fa-ellipsis-vertical"></i>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="song-list_songs">
+                        <div class="song-list_song">
+                            <div class="song-list_img">
+                                <div class="ong-list_image">
+                                    <img width="55px" height="55px"
+                                        style="background-size: cover; border-radius: 5px;flex-shrink: 0;"
+                                        src="https://thanhnien.mediacdn.vn/Uploaded/thaobtn/2022_11_14/e375b2356ecda893f1dc-9121.jpg"
+                                        alt="Seven">
+                                </div>
+                                <div class="song-list_info">
+                                    <h3 class="song-list_titlle">Severt</h3>
+                                    <p class="song-list_artist">Jung Kook</p>
+                                </div>
+                            </div>
+                            <div class="song-list_icon">
+                                <i class="fa-solid fa-ellipsis-vertical"></i>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="song-list_songs">
+                        <div class="song-list_song">
+                            <div class="song-list_img">
+                                <div class="ong-list_image">
+                                    <img width="55px" height="55px" style="background-size: cover; border-radius: 5px;"
+                                        src="https://thanhnien.mediacdn.vn/Uploaded/thaobtn/2022_11_14/e375b2356ecda893f1dc-9121.jpg"
+                                        alt="Seven">
+                                </div>
+                                <div class="song-list_info">
+                                    <h3 class="song-list_titlle">Severt</h3>
+                                    <p class="song-list_artist">Jung Kook</p>
+                                </div>
+                            </div>
+                            <div class="song-list_icon">
+                                <i class="fa-solid fa-ellipsis-vertical"></i>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="song-list_songs">
+                        <div class="song-list_song">
+                            <div class="song-list_img">
+                                <div class="ong-list_image">
+                                    <img width="55px" height="55px" style="background-size: cover; border-radius: 5px;"
+                                        src="https://thanhnien.mediacdn.vn/Uploaded/thaobtn/2022_11_14/e375b2356ecda893f1dc-9121.jpg"
+                                        alt="Seven">
+                                </div>
+                                <div class="song-list_info">
+                                    <h3 class="song-list_titlle">Severt</h3>
+                                    <p class="song-list_artist">Jung Kook</p>
+                                </div>
+                            </div>
+                            <div class="song-list_icon">
+                                <i class="fa-solid fa-ellipsis-vertical"></i>
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+                <div class="song-list"id="song-list-8">
+                    <div class="song-list_bar">
+                        <div class="song-list_header">
+                            <h2 class="song-list_title">Popular Songs </h2>
+                            <p class="song-list_text">Rook1e, khai dreams, Joytastic Sarah và nhiều hơn nữa </p>
+                        </div>
+                        <div class="btn btn-toggle-play">
+                            <i class="fas fa-pause icon-pause"></i>
+                            <i class="fas fa-play icon-play"></i>
+                        </div>
+                    </div>
+
+                    <div class="song-list_songs">
+                        <div class="song-list_song">
+                            <div class="song-list_img">
+                                <div class="ong-list_image">
+                                    <img width="55px" height="55px" style="background-size: cover; border-radius: 5px;"
+                                        src="https://thanhnien.mediacdn.vn/Uploaded/thaobtn/2022_11_14/e375b2356ecda893f1dc-9121.jpg"
+                                        alt="Seven">
+                                </div>
+                                <div class="song-list_info">
+                                    <h3 class="song-list_titlle">Severt</h3>
+                                    <p class="song-list_artist">Jung KookJung</p>
+                                </div>
+                            </div>
+                            <div class="song-list_icon">
+                                <i class="fa-solid fa-ellipsis-vertical"></i>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="song-list_songs">
+                        <div class="song-list_song">
+                            <div class="song-list_img">
+                                <div class="ong-list_image">
+                                    <img width="55px" height="55px"
+                                        style="background-size: cover; border-radius: 5px;flex-shrink: 0;"
+                                        src="https://thanhnien.mediacdn.vn/Uploaded/thaobtn/2022_11_14/e375b2356ecda893f1dc-9121.jpg"
+                                        alt="Seven">
+                                </div>
+                                <div class="song-list_info">
+                                    <h3 class="song-list_titlle">Severt</h3>
+                                    <p class="song-list_artist">Jung Kook</p>
+                                </div>
+                            </div>
+                            <div class="song-list_icon">
+                                <i class="fa-solid fa-ellipsis-vertical"></i>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="song-list_songs">
+                        <div class="song-list_song">
+                            <div class="song-list_img">
+                                <div class="ong-list_image">
+                                    <img width="55px" height="55px" style="background-size: cover; border-radius: 5px;"
+                                        src="https://thanhnien.mediacdn.vn/Uploaded/thaobtn/2022_11_14/e375b2356ecda893f1dc-9121.jpg"
+                                        alt="Seven">
+                                </div>
+                                <div class="song-list_info">
+                                    <h3 class="song-list_titlle">Severt</h3>
+                                    <p class="song-list_artist">Jung Kook</p>
+                                </div>
+                            </div>
+                            <div class="song-list_icon">
+                                <i class="fa-solid fa-ellipsis-vertical"></i>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="song-list_songs">
+                        <div class="song-list_song">
+                            <div class="song-list_img">
+                                <div class="ong-list_image">
+                                    <img width="55px" height="55px" style="background-size: cover; border-radius: 5px;"
+                                        src="https://thanhnien.mediacdn.vn/Uploaded/thaobtn/2022_11_14/e375b2356ecda893f1dc-9121.jpg"
+                                        alt="Seven">
+                                </div>
+                                <div class="song-list_info">
+                                    <h3 class="song-list_titlle">Severt</h3>
+                                    <p class="song-list_artist">Jung Kook</p>
+                                </div>
+                            </div>
+                            <div class="song-list_icon">
+                                <i class="fa-solid fa-ellipsis-vertical"></i>
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+                <div class="song-list"id="song-list-9">
+                    <div class="song-list_bar">
+                        <div class="song-list_header">
+                            <h2 class="song-list_title">Popular Songs </h2>
+                            <p class="song-list_text">Rook1e, khai dreams, Joytastic Sarah và nhiều hơn nữa </p>
+                        </div>
+                        <div class="btn btn-toggle-play">
+                            <i class="fas fa-pause icon-pause"></i>
+                            <i class="fas fa-play icon-play"></i>
+                        </div>
+                    </div>
+
+                    <div class="song-list_songs">
+                        <div class="song-list_song">
+                            <div class="song-list_img">
+                                <div class="ong-list_image">
+                                    <img width="55px" height="55px" style="background-size: cover; border-radius: 5px;"
+                                        src="https://thanhnien.mediacdn.vn/Uploaded/thaobtn/2022_11_14/e375b2356ecda893f1dc-9121.jpg"
+                                        alt="Seven">
+                                </div>
+                                <div class="song-list_info">
+                                    <h3 class="song-list_titlle">Severt</h3>
+                                    <p class="song-list_artist">Jung KookJung</p>
+                                </div>
+                            </div>
+                            <div class="song-list_icon">
+                                <i class="fa-solid fa-ellipsis-vertical"></i>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="song-list_songs">
+                        <div class="song-list_song">
+                            <div class="song-list_img">
+                                <div class="ong-list_image">
+                                    <img width="55px" height="55px"
+                                        style="background-size: cover; border-radius: 5px;flex-shrink: 0;"
+                                        src="https://thanhnien.mediacdn.vn/Uploaded/thaobtn/2022_11_14/e375b2356ecda893f1dc-9121.jpg"
+                                        alt="Seven">
+                                </div>
+                                <div class="song-list_info">
+                                    <h3 class="song-list_titlle">Severt</h3>
+                                    <p class="song-list_artist">Jung Kook</p>
+                                </div>
+                            </div>
+                            <div class="song-list_icon">
+                                <i class="fa-solid fa-ellipsis-vertical"></i>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="song-list_songs">
+                        <div class="song-list_song">
+                            <div class="song-list_img">
+                                <div class="ong-list_image">
+                                    <img width="55px" height="55px" style="background-size: cover; border-radius: 5px;"
+                                        src="https://thanhnien.mediacdn.vn/Uploaded/thaobtn/2022_11_14/e375b2356ecda893f1dc-9121.jpg"
+                                        alt="Seven">
+                                </div>
+                                <div class="song-list_info">
+                                    <h3 class="song-list_titlle">Severt</h3>
+                                    <p class="song-list_artist">Jung Kook</p>
+                                </div>
+                            </div>
+                            <div class="song-list_icon">
+                                <i class="fa-solid fa-ellipsis-vertical"></i>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="song-list_songs">
+                        <div class="song-list_song">
+                            <div class="song-list_img">
+                                <div class="ong-list_image">
+                                    <img width="55px" height="55px" style="background-size: cover; border-radius: 5px;"
+                                        src="https://thanhnien.mediacdn.vn/Uploaded/thaobtn/2022_11_14/e375b2356ecda893f1dc-9121.jpg"
+                                        alt="Seven">
+                                </div>
+                                <div class="song-list_info">
+                                    <h3 class="song-list_titlle">Severt</h3>
+                                    <p class="song-list_artist">Jung Kook</p>
+                                </div>
+                            </div>
+                            <div class="song-list_icon">
+                                <i class="fa-solid fa-ellipsis-vertical"></i>
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+        </section>
+        <footer class="footer_directional">
+            <div class="footer_directional-container">
+                <div class="footer_directional-icon">
+                    <i class="fa-solid fa-house"></i>
+                    <h4 class="footer_directional-text">Home</h4>
+                </div>
+                <div class="footer_directional-icon">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                    <h4 class="footer_directional-text">Seach</h4>
+                </div>
+                <div class="footer_directional-icon">
+                    <i class="fa-regular fa-heart"></i>
+                    <h4 class="footer_directional-text">Favourite</h4>
+
+                </div>
+                <div class="footer_directional-icon">
+                    <i class="fa-solid fa-gear"></i>
+                    <h4 class="footer_directional-text">Setting</h4>
+
+                </div>
+
+            </div>
+        </footer>
+    </div>
+    <script src="assets/js/script.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,13 @@
+{
+	"name": "json-sever",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"scripts": {
+		"start": "npx json-server db.json",
+		"sass": "sass --watch scss/base/style.scss:asset/css/style.css --source-map",
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"author": "",
+	"license": "ISC"
+}

@@ -1,0 +1,82 @@
+{
+    "songs" : [
+      {
+        "index": 0,
+        "name": "Dừng chân, đứng lại",
+        "author": "NamLee, Tofu, An ft VoVanDuc",
+        "image": "./assets/img/song1.jpg",
+        "path": "./assets/music/song1.mp3"
+      },     
+      {
+        "index": 1,
+        "name": "Chưa được yêu như thế",
+        "author": "Trang",
+        "image": "./assets/img/song2.jpg",
+        "path": "./assets/music/song2.mp3"
+      },
+      {
+        "index": 2,
+        "name": "Qua những tiếng ve",
+        "author": "Tofu, Urabe ft Xesi",
+        "image": "./assets/img/song3.jpg",
+        "path": "./assets/music/song3.mp3"
+      },
+      {
+        "index": 3,
+        "name": "Một thuở thanh bình",
+        "author": "Tùng Tea ft Tuyết",
+        "image": "./assets/img/song4.jpg",
+        "path": "./assets/music/song4.mp3"
+      },
+      {
+        "index": 4,
+        "name": "Em không",
+        "author": "Vũ Thanh Vân",
+        "image": "./assets/img/song5.jpg",
+        "path": "./assets/music/song5.mp3"
+      },
+      {
+        "index": 5,
+        "name": "Một ngàn nỗi đau (live)",
+        "author": "Mai Văn Hương X Trung Quân",
+        "image": "./assets/img/song6.jpg",
+        "path": "./assets/music/song6.mp3"
+      },
+      {
+        "index": 6,
+        "name": "Từng là của nhau",
+        "author": "Bảo Anh ft Táo",
+        "image": "./assets/img/song7.jpg",
+        "path": "./assets/music/song7.mp3"
+      },
+      {
+        "index": 7,
+        "name": "Cầu Vĩnh Tuy",
+        "author": "Wren Evans",
+        "image": "./assets/img/song8.jpg",
+        "path": "./assets/music/song8.mp3"
+      },
+      {
+        "index": 8,
+        "name": "Only",
+        "author": "LeeHi",
+        "image": "./assets/img/song9.jpg",
+        "path": "./assets/music/song9.mp3"
+      },
+      {
+        "index": 9,
+        "name": "Cô đơn trên sofa (live)",
+        "author": "Trung Quân",
+        "image": "./assets/img/song10.jpg",
+        "path": "./assets/music/song10.mp3"
+      },
+      {
+        "index": 10,
+        "name": "Die For You",
+        "author": "The Weeknd, Ariana Grande",
+        "image": "./assets/img/song11.jpg",
+        "path": "./assets/music/song11.mp3"
+      }
+    ]
+
+}
